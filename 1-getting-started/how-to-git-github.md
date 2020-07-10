@@ -64,20 +64,20 @@ These are the basic concepts behind Git and GitHub. Learn more by going to the G
 
 ## **git workflow**
 
-1. (first time setup) pull the repository `git clone https://github.com/dryu99/infinite-animal-crossing-lofi.git`
-    - what does pulling the repository mean?
+1. (first time setup) clone the repository `git clone https://github.com/dryu99/infinite-animal-crossing-lofi.git`
+    - what does cloning the repository mean?
         - you're "grabbing" the latest version of the code from GitHub
         - you only need to do this once at the beginning
         - this is what it could look like
 ![git setup photo 1](https://i.imgur.com/w8Ww9U2.png)
 
-2. checkout into a new branch `git checkout -b NAME-OF-BRANCH`
+2. check out a new branch `git checkout -b NAME-OF-BRANCH`
     - it should look like this:
-        - the name of the **original** branch is called (CREDITSS) - shown in a blue color
-            - if you start out for the first time, the branch will be called MASTER/MAIN
+        - the name of the **default** branch in my example is called `CREDITSS` (shown in a blue colour)
+            - the default branch is called `master` by default, although it varies by repository
         - we checked out to a new branch called EXAMPLE
 ![git setup photo 1](https://i.imgur.com/YSVr3uh.png)        
-    - checking out into a new branch means that you're working on a different version
+    - checking out a new branch means that you're working on a different version
         - like a paper - this means you're working on a draft involving one idea for the final paper
         - you don't want to work on the idea directly on the final paper but rather on a draft
         - if you don't use the "draft" having branches makes it easier to not include it
@@ -86,6 +86,7 @@ These are the basic concepts behind Git and GitHub. Learn more by going to the G
     - you can add something to the README or do some code!
 4. tell git to track your changes by doing `git add .`
     - try to do this in the beginning before you start making any changes
+    - `git add .` will add ALL changes; you can add only some changes by specifying a file instead of `.`
 5. save your changes and give it a meaningful name by doing `git commit -m "describe your changes here"`
 6. double check to see what git is keeping track of by doing `git status`
 7. push those changes up to github `git push origin NAME-OF-BRANCH`
@@ -102,7 +103,7 @@ These are the basic concepts behind Git and GitHub. Learn more by going to the G
     1. find the last time you saved your work by doing `git log` and keep track of the hash
     2. then `git reset --hard <hash>`
 3. how do i update my local version to be up to date with github?
-    1. `git pull origin master`
+    1. `git pull origin NAME-OF-BRANCH` will update the a specific branch
 4. how do i switch branches?
     1. `git checkout NAME-OF-BRANCH`
 
@@ -119,7 +120,7 @@ These are the basic concepts behind Git and GitHub. Learn more by going to the G
     - similarly to a paper, it would be as if you're working on the final paper rather than a draft
     
     
-    # Resources
+# Resources
 
 Here's a list of resources to use to learn more about Git/GitHub!
 

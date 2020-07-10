@@ -10,3 +10,4 @@ Self-Learning Resources Wiki
 * [Software Development Lifecycle (SDLC)](1-getting-started/software-development-lifecycle.md)
 * [Defining the Tech World](1-getting-started/defining-the-tech-world.md)
 * [Applied 'Hello World' Examples](1-getting-started/applied-hello-world/)
+* [How to Git/GitHub](1-getting-started/how-to-git-github.md/)

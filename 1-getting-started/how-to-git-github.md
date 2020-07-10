@@ -2,6 +2,8 @@
 
 Git/Github can seem intimidating at first, but don't worry! There can be a steep learning curve, but once you get the hang of it, it is an useful tool that 40 million users use. Use this guide as one of your resources and you'll be on your way on learning Git/Github! 
 
+It's a long read so grab some snacks and get comfy!
+
 ## What is Git and Github? What's the difference between them?
 
 ## Git
@@ -134,4 +136,4 @@ Here's a list of resources to use to learn more about Git/GitHub!
 - [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
 - [git workshop.pdf](https://github.com/nwplus/self-learning-resources/blob/master/1-getting-started/git%20workshop.pdf "Git Workshop")
 
-
+You did it!! It's a long read but it's definitely useful! Feel free to refer back to this if you'd like and give any suggestions on topics you'd like us to cover next! Until next time!

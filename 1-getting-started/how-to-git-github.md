@@ -76,7 +76,7 @@ These are the basic concepts behind Git and GitHub. Learn more by going to the G
         - the name of the **default** branch in my example is called `CREDITSS` (shown in a blue colour)
             - the default branch is called `master` by default, although it varies by repository
         - we checked out to a new branch called EXAMPLE
-![git setup photo 1](https://i.imgur.com/YSVr3uh.png)        
+![git setup photo 1](https://i.imgur.com/CSaDxcv.png)        
     - checking out a new branch means that you're working on a different version
         - like a paper - this means you're working on a draft involving one idea for the final paper
         - you don't want to work on the idea directly on the final paper but rather on a draft

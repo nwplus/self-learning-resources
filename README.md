@@ -17,3 +17,4 @@ Self-Learning Resources Wiki
 * [Debugging](2-beginner/debugging.md)
 * [How to Git/GitHub](1-getting-started/how-to-git-github.md/)
 * [Command Line Basics](2-beginner/command-line-basics.md/)
+* [General Resources](2-beginner/general-resources.md/)

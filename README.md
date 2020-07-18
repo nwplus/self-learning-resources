@@ -16,3 +16,4 @@ Self-Learning Resources Wiki
 ### → you know for-loops go brrrr but haven’t built + deployed anything tangible yet
 * [Debugging](2-beginner/debugging.md)
 * [How to Git/GitHub](1-getting-started/how-to-git-github.md/)
+* [Command Line Basics](2-beginner/command-line-basics.md/)

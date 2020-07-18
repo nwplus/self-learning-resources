@@ -11,3 +11,8 @@ Self-Learning Resources Wiki
 * [Defining the Tech World](1-getting-started/defining-the-tech-world.md)
 * [Applied 'Hello World' Examples](1-getting-started/applied-hello-world/)
 * [How to Git/GitHub](1-getting-started/how-to-git-github.md/)
+
+# [Beginner](2-beginner/)
+### → you know for-loops go brrrr but haven’t built + deployed anything tangible yet
+* [Debugging](2-beginner/debugging.md)
+* [How to Git/GitHub](1-getting-started/how-to-git-github.md/)

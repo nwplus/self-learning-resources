@@ -6,7 +6,7 @@
 
 [**Coursera**](https://www.coursera.org): 
 
-[**Udemy**](https://www.udemy.com/): [PAID] 
+[**Udemy**](https://www.udemy.com/): [PAID but there are free coding courses available] 
 
 [**The Odin Project**](https://www.theodinproject.com): Looking to learn about web development? The Odin Project is an open-source resource that eases you into projects so that you can learn to code and create something on your own.
 

@@ -3,6 +3,8 @@
 
 Self-Learning Resources Wiki
 
+Click on any of the links to find out about that specific topic!
+
 # [Getting Started](1-getting-started/)
 ### → you’ve never coded in your life
 * [What is coding?](1-getting-started/what-is-coding.md)

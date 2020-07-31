@@ -135,6 +135,6 @@ Here's a list of resources to use to learn more about Git/GitHub!
 - [Learn the Basics of Git in Under 10 Minutes](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
 - [Git: Become an Expert in Git & GitHub in 4 Hours (Udemy Free Course)](https://www.udemy.com/course/git-expert-4-hours/)
 - [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
-- [git workshop.pdf](https://github.com/nwplus/self-learning-resources/blob/master/1-getting-started/git%20workshop.pdf "Git Workshop")
+- [git_workshop.pdf](git_workshop.pdf "Git Workshop")
 
 You did it!! It's a long read but it's definitely useful! Feel free to refer back to this if you'd like and give any suggestions on topics you'd like us to cover next! Until next time!

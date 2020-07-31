@@ -6,7 +6,7 @@ It's a long read so grab some snacks and get comfy!
 
 ## What is Git and Github? What's the difference between them?
 
-## Git
+### Git
 
 Before you understand what Git is, you'll need to understand what is a version code and control system. 
 

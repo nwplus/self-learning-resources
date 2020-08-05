@@ -320,7 +320,94 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="todo">TODO</h1>
+                                <h1 id="git-workflow--common-pitfallsmistakes">Git Workflow &amp; Common Pitfalls/Mistakes</h1>
+<h2 id="git-workflow"><strong>git workflow</strong></h2>
+<ol>
+<li><p>(first time setup) clone the repository <code>git clone https://github.com/dryu99/infinite-animal-crossing-lofi.git</code></p>
+<ul>
+<li>what does cloning the repository mean?<ul>
+<li>you&apos;re &quot;grabbing&quot; the latest version of the code from GitHub</li>
+<li>you only need to do this once at the beginning</li>
+<li>this is what it could look like
+<img src="https://i.imgur.com/w8Ww9U2.png" alt="git setup photo 1"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>check out a new branch <code>git checkout -b NAME-OF-BRANCH</code></p>
+<ul>
+<li>it should look like this:<ul>
+<li>the name of the <strong>default</strong> branch in my example is called <code>CREDITSS</code> (shown in a blue colour)<ul>
+<li>the default branch is called <code>master</code> by default, although it varies by repository</li>
+</ul>
+</li>
+<li>we checked out to a new branch called EXAMPLE
+<img src="https://i.imgur.com/CSaDxcv.png" alt="git setup photo 1">        </li>
+</ul>
+</li>
+<li>checking out a new branch means that you&apos;re working on a different version<ul>
+<li>like a paper - this means you&apos;re working on a draft involving one idea for the final paper</li>
+<li>you don&apos;t want to work on the idea directly on the final paper but rather on a draft</li>
+<li>if you don&apos;t use the &quot;draft&quot; having branches makes it easier to not include it</li>
+<li>if you do use the &quot;draft&quot; you can easily put it in the final paper - master</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>make your changes, go wild!<ul>
+<li>you can add something to the README or do some code!</li>
+</ul>
+</li>
+<li>tell git to track your changes by doing <code>git add .</code><ul>
+<li>try to do this in the beginning before you start making any changes</li>
+<li><code>git add .</code> will add ALL changes; you can add only some changes by specifying a file instead of <code>.</code></li>
+</ul>
+</li>
+<li>save your changes and give it a meaningful name by doing <code>git commit -m &quot;describe your changes here&quot;</code></li>
+<li>double check to see what git is keeping track of by doing <code>git status</code></li>
+<li>push those changes up to github <code>git push origin NAME-OF-BRANCH</code></li>
+<li>go to github and make a pull request!</li>
+<li>merge it into master branch </li>
+</ol>
+<h2 id="common-pitfallsmistakes">Common Pitfalls/Mistakes</h2>
+<h3 id="common-pitfalls"><strong>common pitfalls</strong></h3>
+<ol>
+<li>help! what do i do if my git says &quot;failed to push some refs to origin&quot;<ol>
+<li>you wanna pull your changes and do <code>git pull origin master</code></li>
+</ol>
+</li>
+<li>help! i wanna revert to an earlier version!<ol>
+<li>find the last time you saved your work by doing <code>git log</code> and keep track of the hash</li>
+<li>then <code>git reset --hard &lt;hash&gt;</code></li>
+</ol>
+</li>
+<li>how do i update my local version to be up to date with github?<ol>
+<li><code>git pull origin NAME-OF-BRANCH</code> will update the a specific branch</li>
+</ol>
+</li>
+<li>how do i switch branches?<ol>
+<li><code>git checkout NAME-OF-BRANCH</code></li>
+</ol>
+</li>
+</ol>
+<h3 id="common-mistakes">common mistakes</h3>
+<ul>
+<li>not including spaces between your commands <code>gitcommit</code> vs <code>git commit</code></li>
+<li>not pushing or pulling your repository<ul>
+<li>not pulling -this means that you aren&apos;t working on the latest version of the project</li>
+<li>not pushing - that means you haven&apos;t uploaded the latest version of the project</li>
+</ul>
+</li>
+<li>working on the wrong branch<ul>
+<li>you meant to do it in branch A but you did it in branch B</li>
+<li>check which branch you&apos;re on in git</li>
+</ul>
+</li>
+<li>working on the master directly (if there are multiple people working or different versions)<ul>
+<li>similarly to a paper, it would be as if you&apos;re working on the final paper rather than a draft</li>
+</ul>
+</li>
+</ul>
 
                                 
                                 </section>
@@ -364,7 +451,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Git Workflow","level":"4.4","depth":1,"next":{"title":"Command Line Basics","level":"4.5","depth":1,"path":"2-beginner/command-line-basics.md","ref":"2-beginner/command-line-basics.md","articles":[]},"previous":{"title":"How to Git/GitHub","level":"4.3","depth":1,"path":"2-beginner/how-to-git-github.md","ref":"2-beginner/how-to-git-github.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2-beginner/git-workflow.md","mtime":"2020-07-31T22:15:48.060Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-31T22:16:16.793Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git Workflow","level":"4.4","depth":1,"next":{"title":"Command Line Basics","level":"4.5","depth":1,"path":"2-beginner/command-line-basics.md","ref":"2-beginner/command-line-basics.md","articles":[]},"previous":{"title":"How to Git/GitHub","level":"4.3","depth":1,"path":"2-beginner/how-to-git-github.md","ref":"2-beginner/how-to-git-github.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2-beginner/git-workflow.md","mtime":"2020-08-05T17:47:08.204Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-05T17:47:35.661Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

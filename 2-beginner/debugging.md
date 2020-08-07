@@ -8,18 +8,18 @@ Debugging is the process of identifying and removing problems from your code, kn
 
 - **Breakpoints** are like stop signs that you can intentionally place in your code. When you debug, the program will pause before the breakpoint line is executed. In whichever IDE you're working with, you should be able to place a breakpoint by clicking to the left of the line numbers.
 
-![breakpoints picture](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7ac9b23d-ba5b-494a-913c-fc3cd998a8d2/Screen_Shot_2020-06-11_at_11.54.31_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200718%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200718T214424Z&X-Amz-Expires=86400&X-Amz-Signature=4430dbedbb52e0600fad3dd05f8df72358be63dba8a5e676ba1c3158b05228d9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-06-11_at_11.54.31_AM.png%22)
+![breakpoints picture](/images/debugging-1.png)
 *Here, a breakpoint is placed on line 27 (IntelliJ IDEA)*
 
 - When you hit debug, a **debug tool window** will appear and would look something like this. Usually, it'll include the call stack and local variables at that point in the code, as seen here:
 
-![tool window](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d120747e-a712-4e11-a443-c43e46219d57/Screen_Shot_2020-06-11_at_11.56.45_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200718%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200718T214629Z&X-Amz-Expires=86400&X-Amz-Signature=d452c270b3c905ec064556432d5dd8651236161b7302e57f59c8f69a20f08b77&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-06-11_at_11.56.45_AM.png%22)
+![tool window](/images/debugging-2.png)
 *A default debug tool window in IntelliJ IDEA*
 
 - By keeping track of all your variables as you go through your code, you'll probably clearly see where something went wrong. But wait! What are all those icons?
 
 <p align="center">
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d906d223-595b-42c8-8620-c8f780285bf0/Screen_Shot_2020-06-11_at_12.02.55_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200718%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200718T214750Z&X-Amz-Expires=86400&X-Amz-Signature=b4d94ea29656a7bf8fc08219ad21dcb05d9ea1c5debe8fb75e3233442de3cf80&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-06-11_at_12.02.55_PM.png%22" alt="debugging icons"/>
+  <img src="/images/debugging-3.png" alt="debugging icons"/>
 </p>
 
 From left to right, these debugging controls are *step over, step into, force step into*, and *step out* - explained more below!

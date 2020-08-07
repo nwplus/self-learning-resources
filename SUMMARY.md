@@ -22,5 +22,9 @@
 * [Git Workflow](2-beginner/git-workflow.md)
 * [Command Line Basics](2-beginner/command-line-basics.md)
 
+## 3. Intermediate
+
+* [APIs](3-intermediate/apis.md)
+
 ### General Resources
 * [General Resources](2-beginner/general-resources.md)

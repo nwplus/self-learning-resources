@@ -13,7 +13,7 @@
 | Developer Evangelist | A spokesperson, mediator and translator between a company and its technical staff and outside world. |
 | DevPost | A platform that helps software engineers participate and submit projects for judging in software competitions and find engineering jobs.
 | Framework | A universal, reusable software environment where it provides particular functionality as part of a larger software platform to facilitate development of software applications. For example, it’s like using an engine in your build for your car so you don’t need to build an engine yourself. |
-| HTTP | HyperText Transfer Protocol | is the data transfer protocol used on the World Wide Web |
+| HTTP | HyperText Transfer Protocol is the data transfer protocol used on the World Wide Web |
 | GitHub | Facilitates social coding by providing a web interface to the Git code repository and management tools for collaboration. Git is used to store the source code for a project ad track the history of all changes to that code |
 | JavaScript | a scripting language used primarily to alter and enhance the appearance or behavior of web pages and web-based application that run in a browser |
 | Java | An object-oriented programming language that is used to create a wide range of computer and web back-end software |
@@ -21,7 +21,7 @@
 | Raspberry Pi | Small single-board computers developed to promote teaching of basic computer science to schools in developing countries |
 | Mongo DB | A cross-platform document-orientated database program classified as a NoSQL database |
 | npm | A package manager for JavaScript programming language |
-| SDK | Software Development Kit | A set of software development tools that allow the creation of application for a certain platform, package, framework, and more |
+| SDK | A Software Development Kit is a set of software development tools that allow the creation of application for a certain platform, package, framework, and more |
 | SEO | Search Engine Optimization. The process of optimizing the online visibility of a website or web page in a web search engine’s unpaid results (natural/organic results) |
 | TCP | Transmission Control Protocol. A collection of standards that allow systems to communicate over the internet |
 | Blockchain | A system in which a record of transactions made in bitcoin or another cryptocurrency are maintained across several computers that are linked in a peer-to-peer network |

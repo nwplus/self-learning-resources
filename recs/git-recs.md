@@ -9,7 +9,7 @@ This page will have links to what the NwPlus Team thinks are great resources for
 **Workshop Slides**
 <object data="/recs/git_workshop.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/recs/git_workshop.pdf">
-        <p>This browser does not support PDFs.</p>
+        <a href="https://kristen.dev/git-workshop-slides.pdf">Git Workshop Slides by Kristen Kwong</p>
     </embed>
 </object>
 <!---TODO: add Git Workshop slides when new slides are available--->

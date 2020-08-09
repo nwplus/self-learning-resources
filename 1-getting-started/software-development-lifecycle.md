@@ -2,13 +2,7 @@
 
 Is there a general timeline people in the industry follow when developing their software project? Yes! The *software development life cycle* is commonly used as a guideline for what tasks need to be accomplished before the completion of a software project. There are many variations of the SDLC which depend on project complexity. There are several stages to this life cycle as shown below. This section will provide a brief summary of why people use SDLC, different types of SDLC, and what happens during each respective stage of development.
 
-<<<<<<< HEAD
 ![Software Development Life Cycle](/images/SDLC.png)
-=======
-<!---TODO check on how to import the picture--->
-![Software Development Life Cycle](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/87ff50e3-c833-4b1e-92c4-bfb2b42226f5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200710T050336Z&X-Amz-Expires=86400&X-Amz-Signature=ed50c790e42f07eceb67eb76151da8b65b8b1c8698bef89912cd742cd1d58518&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
->>>>>>> added todo comments
-
 > Image from: [https://datarob.com/essentials-software-development-life-cycle/](https://datarob.com/essentials-software-development-life-cycle/)
 
 # **Advantages of SDLC**

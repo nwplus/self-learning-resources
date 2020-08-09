@@ -23,8 +23,9 @@
 * [Command Line Basics](2-beginner/command-line-basics.md)
 
 ## 3. Intermediate
-
-* [APIs](3-intermediate/apis.md)
+* APIs
+  * [Basics of APIs](3-intermediate/apis-basics.md)
+  * [Getting hands-on](3-intermediate/apis-handson.md)
 
 ### General Resources
 * [General Resources](2-beginner/general-resources.md)

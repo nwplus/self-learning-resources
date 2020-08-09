@@ -3,8 +3,8 @@
 This page will have links to what the NwPlus Team thinks are great resources for you to get started with Git or sharpen your skills further!
 
 **Resources from nwPlus**
-- [How to Git/GitHub](2-beginner/how-to-git-github.md)
-- [Git Workflow](2-beginner/git-workflow.md)
+- [How to Git/GitHub](../2-beginner/how-to-git-github.md)
+- [Git Workflow](../2-beginner/git-workflow.md)
 
 **Workshop Slides**
 <object data="/recs/git_workshop.pdf" type="application/pdf" width="700px" height="700px">

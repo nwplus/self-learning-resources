@@ -58,23 +58,10 @@ GitHub stores all your code where other people can see what you've written and y
 
 More questions? Check out the full article [here](https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/)!
 
-These are the basic concepts behind Git and GitHub. Learn more by going to the Git and GitHub resources!
-    
-# Resources
+##Resources
 
-Here's a list of resources to use to learn more about Git/GitHub!
+These are the basic concepts behind Git and GitHub. Learn more by going through some more [Git and GitHub resources](recs/git-recs.md)!
 
-[GitHub's guide to setting up - Hello World](https://guides.github.com/activities/hello-world/)
+***
 
-- [Official GitHub Handbook](https://guides.github.com/introduction/git-handbook/)
-- [What is GitHub? - GitHub](https://youtu.be/w3jLJU7DT5E)
-- [Git Branching](https://learngitbranching.js.org)
-- [Basic Git Commands](https://dev.to/dhruv/essential-git-commands-every-developer-should-know-2fl)
-- [An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-- [git - the simple guide](https://rogerdudler.github.io/git-guide/)
-- [Learn the Basics of Git in Under 10 Minutes](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
-- [Git: Become an Expert in Git & GitHub in 4 Hours (Udemy Free Course)](https://www.udemy.com/course/git-expert-4-hours/)
-- [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
-- [git_workshop.pdf](git_workshop.pdf "Git Workshop")
-
-You did it!! It's a long read but it's definitely useful! Feel free to refer back to this if you'd like and give any suggestions on topics you'd like us to cover next! Until next time!
+You did it!! It's a long read but it's definitely useful. Feel free to refer back to this if you'd like and give any suggestions on topics you'd like us to cover next. Until next time!

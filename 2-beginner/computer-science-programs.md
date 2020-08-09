@@ -1,6 +1,6 @@
 ## Computer Science Programs
 Post-Secondary CS Programs in the Greater Vancouver Area 
-
+<!--TODO: add links for CS programs-->
   Check out these universities' Computer Science Programs on what skills and knowledge you can learn! 
   - University of British Columbia
     - BSc Computer Science
@@ -8,6 +8,8 @@ Post-Secondary CS Programs in the Greater Vancouver Area
     - BUCS (Business and Computer Science)
     - BCS (2nd Degree Program)
   - Simon Fraser University
+    - BSc Computer Science
+    - SIAT
   - British Columbia Institute of Technology
   - Langara College
   

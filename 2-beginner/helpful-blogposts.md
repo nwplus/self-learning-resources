@@ -1,5 +1,6 @@
 # Helpful Blog Posts
   
+<!--TODO: add more blog posts-->
 ### Hackathons
   - [Started as hackers, now we're here](https://medium.com/nwplusubc/started-as-hackers-83383092b159)
   - [Hackathon advice from 3 veteran hackers](https://medium.com/nwplusubc/hackathon-advice-from-3-veteran-hackers-a7d20effba0c)

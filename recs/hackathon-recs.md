@@ -24,6 +24,23 @@ So there's this 'hackathon' thing everyone's talking about. What is it and what 
 - [A guide to getting to (often far away) hackathons](https://medium.com/@danstepanov/crowd-sourced-hackathon-travel-de6fdf1c7aaa)
 - [Getting into the right mindset](https://medium.com/hackathon-hackers/hackathons-arent-about-the-hacks-a2d84bf60a47)
 
+**Hackathon Starterpacks**
+- General Resources
+  - [GitHub Student Pack](https://education.github.com/pack)
+- Mobile App
+  - [iOS](https://github.com/TreeHacks/hackpack-ios)
+  - [Android (Kotlin)](https://github.com/TreeHacks/hackpack-android-kotlin)
+- Backend
+  - [Node API](https://github.com/TreeHacks/hackpack-web-api)
+  - [Flask API starter](https://github.com/MLH/mlh-hackathon-flask-starter)
+  - [Flask API example](https://github.com/jackyzha0/lhd-build-python-webapp/tree/2-finished-flask)
+- Frontend
+  - Basic HTML/CSS/JS #TODO: jenny's workshop
+  - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+  - [React + Redux](https://github.com/TreeHacks/hackpack-web-frontend)
+- Browser Extension
+  - [Chrome](https://github.com/TreeHacks/hackpack-chrome-ext)
+
 **Tips and Tricks**
 - [Getting the most out of your first hackathon](https://techcrunch.com/2014/09/01/how-to-crush-your-hackathon-demo/)
 - [How to pitch](https://techcrunch.com/2014/09/01/how-to-crush-your-hackathon-demo/)

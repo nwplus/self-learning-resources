@@ -25,3 +25,4 @@
 * [General Resources](2-beginner/general-resources.md)
 * [Everything Git](recs/git-recs.md)
 * [Recommendations](recs/general-recs.md)
+* [How to Hackathon](recs/hackathon-recs.md)

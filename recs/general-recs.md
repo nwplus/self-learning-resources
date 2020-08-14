@@ -2,7 +2,14 @@
 Not sure how to approach the self-learning resources? Fear not, your friends at nwPlus put together what we think is a potential way for you to approach the resource based on your level of experience!
 
 ## 🌱 Learning to code - how should I start?
-TODO
+Are you learning programming from scratch? Super impressive! Here, try starting with these basics and you'll work your way up in no time.
+
+**Resources from nwPlus**
+- [What is Coding?](/1-getting-started/what-is-coding.md)
+- [Get Equipped with an IDE](/1-getting-started/ides-and-text-editors.md)
+- [Learn the Lingo](/1-getting-started/defining-the-tech-world.md)
+- [The Software Development Life Cycle](/1-getting-started/software-development-lifecycle.md)
+- [Other Useful Resources](/2-beginner/general-resources.md)
 
 ## 🌿 Just took my first CS course - now what?
 Here are great resources for you after you've completed your first CS course(s), including beginner-friendly topics that aren't typically taught in class!
@@ -23,7 +30,8 @@ Here are great resources for you after you've completed your first CS course(s),
 So you just finished a handful of CS courses, maybe fresh out of second year! Eager and excited to get more hands-on and see what else is out there because lecture material is simply too theoretical? 
 
 **Resources from nwPlus**
-- [Welcome to APIs](/3-intermediate/apis.md)
+- [Welcome to APIs](/3-intermediate/apis-basics.md)
+- [Getting Hands-on with APIs](/3-intermediate/apis-handson.md)
 - [Level up Your Git Skills](git-recs.md)
 
 **Online Courses && More Resources**

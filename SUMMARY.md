@@ -25,5 +25,5 @@
 * [Online Courses](recs/online-courses.md)
 <!--* [Computer Science Programs in the Greater Vancouver Area](2-beginner/computer-science-programs.md)-->
 * [Everything Git](recs/git-recs.md)
-* [Recommendations](recs/general-recs.md)
+* [Recommendations (Streams)](recs/general-recs.md)
 * [How to Hackathon](recs/hackathon-recs.md)

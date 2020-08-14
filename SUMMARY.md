@@ -4,9 +4,7 @@
 
 * [What is coding?](1-getting-started/what-is-coding.md)
 * [A Newcomers Guide to IDEs (and text editors)](1-getting-started/ides-and-text-editors.md)
-* Terminology
-  * [Software Development Lifecycle](1-getting-started/software-development-lifecycle.md)
-  * [Defining the Tech World](1-getting-started/defining-the-tech-world.md)
+* [Defining the Tech World](1-getting-started/defining-the-tech-world.md)
 
 ## 2. Beginner
 
@@ -20,6 +18,7 @@
 * APIs
   * [Basics of APIs](3-intermediate/apis-basics.md)
   * [Getting hands-on](3-intermediate/apis-handson.md)
+* [Software Development Lifecycle](3-intermediate/software-development-lifecycle.md)
 
 ### General Resources
 * [General Resources](2-beginner/general-resources.md)

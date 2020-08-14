@@ -14,3 +14,4 @@ jobs:
       with:
         token: ${{ secrets.GITBOOK_SECRET }}
         publish_push_force: true
+        publish_cname: resources.nwplus.io

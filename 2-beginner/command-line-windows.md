@@ -11,23 +11,23 @@ To open PowerShell, simply head to the Windows search bar and type in PowerShell
 ## Basic commands
 
 - Navigating folders
-  - `cd` → See the Mac/Linux description for more info.
-  - `ls` → See the Mac/Linux description for more info.
+  - `cd` → See the [Mac/Linux description](/2-beginner/command-line-mac-linux.md) for more info.
+  - `ls` → See the [Mac/Linux description](/2-beginner/command-line-mac-linux.md) description for more info.
 - Copying, moving, and deleting files and folders
-  - `cp` → See the Mac/Linux description for more info.
-  - `mv` → See the Mac/Linux description for more info.
-  - `rm` → See the Mac/Linux description for more info.
+  - `cp` → See the [Mac/Linux description](/2-beginner/command-line-mac-linux.md) description for more info.
+  - `mv` → See the [Mac/Linux description](/2-beginner/command-line-mac-linux.md) description for more info.
+  - `rm` → See the [Mac/Linux description](/2-beginner/command-line-mac-linux.md) description for more info.
 - Creating files and folders
   - `ni` → To create a new file, run `ni <file>`, such as, `ni example.txt`. 
   - `md` → To create a new directory, run `md <directory>`, such as, `md example`. 
 - Viewing file contents
-  - `cat` → See the Mac/Linux description for more info.
+  - `cat` → See the [Mac/Linux description](/2-beginner/command-line-mac-linux.md) description for more info.
 - Editing file contents
   - `notepad` → To edit a text file or see some content in plaintext, run `notepad <file>`, such as `notepad example.txt`.
 
 Note that for a lot of these commands, even though they look the same as their Mac/Linux equivalent, they're actually just aliases for other PowerShell commands. For example, `rm` in PowerShell actually runs `Remove-Item`. You can see this for yourself by typing `Get-Alias rm` into PowerShell.
 
-What does this mean for you? Well, sometimes, if you copy and paste a `rm ...` from the internet, it might not work, since Remove-Item behaves a little differently than bash `rm`. However, later on, we'll cover how you can use bash on a Windows computer, so that you don't have to experience this headache!
+What does this mean for you? Well, sometimes, if you copy and paste a `rm ...` from the internet, it might not work, since `Remove-Item` behaves a little differently than bash `rm`. However, there is a way to use bash directly on a Windows computer to avoid this headache. More on that at the end of the "Package Managers" section!
 
 ### An aside
 
@@ -65,6 +65,12 @@ From here, we can install some really helpful tools that we can use in the comma
 | [cURL](https://chocolatey.org/packages/curl) | `choco install curl` | A command line interface for interacting with APIs. More on this in the intermediate section! | 
 | [GNU make](https://chocolatey.org/packages/make) | `choco install make` | A replacement for Linux's [make](https://opensource.com/article/18/8/what-how-makefile), allowing you to use a given makefile. |
 
+<h3>A <span style="text-decoration: line-through;">birthday</span> bash</h3>
+
+Once you've installed Git on a Windows device, you also get access to git bash. There are other "bashes" (for example, through [Cygwin](https://cygwin.com/index.html) or through [WSL](https://docs.microsoft.com/en-us/windows/wsl/about), which aren't covered here), but since we already know so much about PowerShell, git bash is more than sufficient. 
+
+Open git bash by searching "bash" in the Windows search bar and hitting enter.
+
 ## The path
 
 After a while of using the command line, you'll start to notice we can almost "add" commands to it by installing certain applications. For example, if you install Python, a popular programming language, on your computer, you'll then be able to type `python` into your terminal, and your terminal won't throw an error. What gives?
@@ -80,6 +86,16 @@ If this happens, don't panic! Google is your friend here. Try searching "add ...
 ## Next steps for Windows
 
 Want to go further with your Windows configuration? Check out these resources to learn how to install the Windows Subsystem for Linux, to run Linux right on your Windows machine, customize your terminal with fonts and pretty colors, create terminal aliases to save some key strokes, and more, with these resources:
+
+### Better terminal emulators [(link)](https://docs.microsoft.com/en-us/windows/terminal/)
+
+"Terminal emulator" is a common way of referring to programs that act as terminals, but are a bit fancier than a "standard" terminal. One common one has already been mentioned a few times: Windows Terminal. It's available for download from the Microsoft Store, and is a fantastic option. After it is installed, you also get access to the `wt` command, which allows you to launch into the Windows Terminal from anywhere. See all of Windows Terminal's features including adding panes, customizing the font, and more, [here](https://docs.microsoft.com/en-us/windows/terminal/).
+
+Another really popular choice is cmder, which is an extension of a different console emulator called ConEmu (short for console emulator, quite literally). [Cmder](https://cmder.net/) provides a ton of really cool features that inspired Windows Terminal, such as tabs, the ability to add panes, and more. You can even use cmder within the Windows Terminal.
+
+### Cascadia Code [(link)](https://www.youtube.com/watch?v=oHhiMf_6exY)
+
+With all of their recent additions to the developer workflow, Microsoft has also added a new font that works exceptionally well for software development. It's perfect for integration with the Windows Terminal, VS Code, and anywhere else you write code.
 
 ### Scott Hanselman's Technical How To's [(link)](https://www.youtube.com/playlist?list=PL0M0zPgJ3HSdI26ZdgX-F8aAKnh9sq6on)
 

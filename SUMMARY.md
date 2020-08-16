@@ -12,7 +12,11 @@
 * Git
   * [How to Git/GitHub](2-beginner/how-to-git-github.md)
   * [Git Workflow](2-beginner/git-workflow.md)
-* [Command Line Basics](2-beginner/command-line-basics.md)
+* The command line 
+  * [Command line basics](2-beginner/command-line-basics.md)
+  * [Terminal terminology (optional)](2-beginner/terminal-terminology.md)
+  * [Getting started on Mac or Linux](2-beginner/command-line-mac-linux.md)
+  * [Getting started on Windows](2-beginner/command-line-windows.md)
 
 ## 3. Intermediate
 * APIs

@@ -23,6 +23,8 @@
   * [Basics of APIs](3-intermediate/apis-basics.md)
   * [Getting hands-on](3-intermediate/apis-handson.md)
 * [Software Development Lifecycle](3-intermediate/software-development-lifecycle.md)
+* Databases
+  * [Types of Databases](3-intermediate/db-types.md)
 
 ### General Resources
 * [Online Courses](recs/online-courses.md)

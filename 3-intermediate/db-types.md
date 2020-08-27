@@ -17,7 +17,7 @@ They also tend to follow the ACID model, which is super important for data valid
 * **A**tomicity: All the changes are performed or none of them are. This prevents partial updates to the database, which can cause greater problems than just rejecting the whole transaction.
 * **C**onsistency: Changes must lead to a valid state, maintaining database invariants or rules. This prevents database corruption by an illegal transaction.
 * **I**solation: Ensures that if the changes were done concurrently, you would get the same result as doing them sequentially.
-* **D**urability: After a transaction successfully completes, changes to data persist and are not undone, even in the event of a system failure (e.g., power outage or crash).
+* **D**urability: After a transaction completes successfully, changes to data persist and are not undone, even in the event of a system failure (e.g., power outage or crash).
 
 ### Language
 
@@ -39,7 +39,7 @@ Non-relational databases are quite literally not relational, they aren't in a st
 
 They are usually in the following formats but the common theme is that they have dynamic schemas for unstructured data, which leads to more flexibility:
 
-* Document: JSON documents, so you can think of them like objects in OOP.
+* Document: JSON documents, so you can think of them as objects in OOP.
 * Key-value: 1:1 relation between keys and values where keys are unique.
 * Graph: In the sense of the computer science data structure with nodes and edges.
 * Wide-column: Tables with rows and dynamic columns, kind of like a 2D key-value store.
@@ -60,11 +60,33 @@ Non-relational databases are often horizontally scalable. This means that you ca
 
 ### Downsides
 
-More flexibility isn't always a good thing since, you have less guarantees about your data and depending on the use case, this could be important. This relates to less consistency due to not having full ACID transactions.
+More flexibility isn't always a good thing since you have fewer guarantees about your data, and depending on the use case, this could be important. This relates to less consistency due to not having full ACID transactions.
 
 ## Conclusion
 
 As with everything in computer science, there are tradeoffs with each choice of database. Ultimately, the choice between relational and non-relational is not a total dichotomy. It is more like a spectrum from flexibility and availability to rigidness and consistency where plenty of databases exist in the middle but cannot truly guarantee either. Your choice will always depend on your use case!
+
+## Getting Started
+
+### SQL
+
+[Beginner SQL Tutorial: Learn SQL Basics While Analyzing Bike-Sharing](https://www.dataquest.io/blog/sql-basics/)
+
+* I found this tutorial to be pretty good for getting started quickly, it uses python with SQLite to teach the basics of SQL queries and relational data.
+
+[Learn PostgreSQL Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=qw--VYLpxG4)
+
+* You should check this out if you want an even more comprehensive guide. It teaches PostgreSQL, which is a fairly popular choice for SQL databases.
+
+### NoSQL
+
+[How to get started with MongoDB in 10 minutes](https://www.freecodecamp.org/news/learn-mongodb-a4ce205e7739/)
+
+* MongoDB is one of the more common NoSQL databases out there and even provides a free tier to help you get started with your programs.
+
+[Get started with Cloud Firestore](https://firebase.google.com/docs/firestore/quickstart)
+
+* Firestore is another pretty common one that provides a free tier as well through firebase.
 
 ## Additional Resources
 

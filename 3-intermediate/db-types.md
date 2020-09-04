@@ -14,10 +14,10 @@ For relational databases, the schema must be predefined, which provides a rigid 
 
 They also tend to follow the ACID model, which is super important for data validity:
 
-* **A**tomicity: All the changes are performed or none of them are. This prevents partial updates to the database, which can cause greater problems than just rejecting the whole transaction.
+* **A**tomicity: All the changes are performed or none of them are. Partial updates to the database can cause future inconsistencies so instead, rejecting the whole transaction is favoured.
 * **C**onsistency: Changes must lead to a valid state, maintaining database invariants or rules. This prevents database corruption by an illegal transaction.
 * **I**solation: Ensures that if the changes were done concurrently, you would get the same result as doing them sequentially.
-* **D**urability: After a transaction completes successfully, changes to data persist and are not undone, even in the event of a system failure (e.g. power outage or crash).
+* **D**urability: After a transaction completes successfully, these changes are persisted, even if the system containing the data were to fail or crash.
 
 ### Language
 
@@ -29,7 +29,7 @@ In general, relational databases are vertically scalable. This means that you sc
 
 ### Downsides
 
-SQL can be restrictive in the sense that it requires that you use predefined schemas to determine the structure of your data before you work with it. This can require significant up-front preparation, and it can mean that a change in the structure would be both difficult and disruptive to your whole system. Additionally, with the increasing prevalence of cloud computing, being vertically scalable can be seen as a downside since you can only increase the power of one machine so much.
+SQL can be restrictive in the sense that it requires that you use predefined schemas to determine the structure of your data before you work with it. This means that future changes in the structure are more difficult and can be disruptive to your system. Additionally, with the increasing prevalence of cloud computing, being vertically scalable can be seen as a downside since you can only increase the power of one machine so much.
 
 ## Non-Relational Databases
 
@@ -47,7 +47,7 @@ They are usually in the following formats but the common theme is that they have
 Non-relational databases also tend to follow the BASE model, which favours availability over consistency. Where ACID ensures that data is always consistent, BASE ensures that data will be consistent at some time in the future:
 
 * **B**asically **A**vailable: Basic operations are available as much as possible without any kind of consistency guarantees.
-* **S**oft state: After some amount of time, we only have some probability of knowing the state, since it may not yet have converged.
+* **S**oft state: After some amount of time, we only have some probability of knowing the state. This means that stores don't have to be write-consistent and that replicas of the store do not have to be mutually consistent.
 * **E**ventually consistent: We will eventually be able to know what the state of the database is, and so any further reads will be consistent with our expectations.
 
 ### Language

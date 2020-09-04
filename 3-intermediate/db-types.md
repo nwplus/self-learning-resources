@@ -17,7 +17,7 @@ They also tend to follow the ACID model, which is super important for data valid
 * **A**tomicity: All the changes are performed or none of them are. This prevents partial updates to the database, which can cause greater problems than just rejecting the whole transaction.
 * **C**onsistency: Changes must lead to a valid state, maintaining database invariants or rules. This prevents database corruption by an illegal transaction.
 * **I**solation: Ensures that if the changes were done concurrently, you would get the same result as doing them sequentially.
-* **D**urability: After a transaction completes successfully, changes to data persist and are not undone, even in the event of a system failure (e.g., power outage or crash).
+* **D**urability: After a transaction completes successfully, changes to data persist and are not undone, even in the event of a system failure (e.g. power outage or crash).
 
 ### Language
 
@@ -90,4 +90,5 @@ As with everything in computer science, there are tradeoffs with each choice of 
 
 ## Additional Resources
 
+* This video by Fireship on [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw) gives a really good explanation of the pros and cons of each database and when to use them.
 * If you are interested in the tradeoffs between databases you can check out the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem), which states that databases cannot provide all 3 of consistency, availability, and partition tolerance.

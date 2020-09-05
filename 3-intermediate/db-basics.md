@@ -34,7 +34,7 @@ For the rest of the article we'll also be using the word "database" to refer to 
 ## Why do we need databases?
 So far we've briefly touched on some of the benefits databases bring to the table. But what specifically separates a database from other storage mediums like spreadsheets? Here are some of the main reasons we love databases!
 
-- **Efficient Storage:** Databases are able to store an enormous number of records in very little space. Unlike spreadsheets, databases do not have record limitations.
+- **Efficient Storage:** Databases are able to store an enormous number of records in very little space. Spreadsheets however do not have the same storage optimizations.
 
 - **Efficient Operations:** Databases are optimized to make operations like creating, reading, updating, and deleting data very quick. Spreadsheets are otherwise likely to require much more time and effort to accomplish the same tasks.
 
@@ -44,7 +44,7 @@ So far we've briefly touched on some of the benefits databases bring to the tabl
     <img src="/images/db-bad-excel.png" alt="bad excel"/>
   </p>
 
-  A spreadsheet doesn't prevent you from making these mistakes, but databases can! Databases are capable of validating the integrity of the data, resulting in much less redundant, missing, and incorrect information.
+  A spreadsheet doesn't prevent you from making these mistakes, but databases can! Databases are capable of validating the integrity of the data, through the specification of a **schema**. You can think of a schema as a blueprint that outlines constraints that the stored data must adhere to, resulting in much less redundant, missing, and incorrect information.
 
 - **Safe Concurrent Access:** When multiple users are simultaneously accessing a database, the database ensures that each user's operations don't interfere with one another. On the other hand, spreadsheets give no guarantee of such safety. Imagine hundreds of users accidentally overwriting each others changes on a spreadsheet. The result could be potentially disastrous with cases of inconsistent or missing data. 
 

@@ -34,26 +34,21 @@ For the rest of the article we'll also be using the word "database" to refer to 
 ## Why do we need databases?
 So far we've briefly touched on some of the benefits databases bring to the table. But what specifically separates a database from other storage mediums like spreadsheets? Here are some of the main reasons we love databases!
 
-#### Efficient Storage
-Databases are able to store an enormous number of records in very little space. Unlike spreadsheets, databases do not have record limitations.
+- **Efficient Storage:** Databases are able to store an enormous number of records in very little space. Unlike spreadsheets, databases do not have record limitations.
 
-#### Efficient Operations
-Databases are optimized to make operations like creating, reading, updating, and deleting data very quick. Spreadsheets are otherwise likely to require much more time and effort to accomplish the same tasks.
+- **Efficient Operations:** Databases are optimized to make operations like creating, reading, updating, and deleting data very quick. Spreadsheets are otherwise likely to require much more time and effort to accomplish the same tasks.
 
-#### Data Integrity
-Data integrity describes the accuracy and consistency of your data. One of the most prevalent issues with using spreadsheets is how easy it is to make mistakes when creating, updating, and deleting data. Imagine entering names into a spreadsheet containing employee information. If you were careless, you might accidentally enter someone's name twice, or even write their date of birth instead. 
+- **Data Integrity:** Data integrity describes the accuracy and consistency of your data. One of the most prevalent issues with using spreadsheets is how easy it is to make mistakes when creating, updating, and deleting data. Imagine entering names into a spreadsheet containing employee information. If you were careless, you might accidentally enter someone's name twice, or even write their date of birth instead. 
 
-<p align="center">
-  <img src="/images/db-bad-excel.png" alt="bad excel"/>
-</p>
+  <p align="center">
+    <img src="/images/db-bad-excel.png" alt="bad excel"/>
+  </p>
 
-A spreadsheet doesn't prevent you from making these mistakes, but databases can! Databases are capable of validating the integrity of the data, resulting in much less redundant, missing, and incorrect information.
+  A spreadsheet doesn't prevent you from making these mistakes, but databases can! Databases are capable of validating the integrity of the data, resulting in much less redundant, missing, and incorrect information.
 
-#### Safe Concurrent Access
-When multiple users are simultaneously accessing a database, the database ensures that each user's operations don't interfere with one another. On the other hand, spreadsheets give no guarantee of such safety. Imagine hundreds of users accidentally overwriting each others changes on a spreadsheet. The result could be potentially disastrous with cases of inconsistent or missing data. 
+- **Safe Concurrent Access:** When multiple users are simultaneously accessing a database, the database ensures that each user's operations don't interfere with one another. On the other hand, spreadsheets give no guarantee of such safety. Imagine hundreds of users accidentally overwriting each others changes on a spreadsheet. The result could be potentially disastrous with cases of inconsistent or missing data. 
 
-#### Security
-Databases make it much safer to deal with sensitive data. Users can be given different permissions that determine what kinds of database operations they're allowed to conduct. You don't necessarily want all users to have complete control over a database, and you definitely don't want to risk exposing private information to the public.
+- **Security:** Databases make it much safer to deal with sensitive data. Users can be given different permissions that determine what kinds of database operations they're allowed to conduct. You don't necessarily want all users to have complete control over a database, and you definitely don't want to risk exposing private information to the public.
 
 
 ## Conclusion

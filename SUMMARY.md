@@ -24,6 +24,7 @@
   * [Getting hands-on](3-intermediate/apis-handson.md)
 * [Software Development Lifecycle](3-intermediate/software-development-lifecycle.md)
 * Databases
+  * [Types of Databases](3-intermediate/db-types.md)
   * [Basics of Databases](3-intermediate/db-basics.md)
 
 ### General Resources

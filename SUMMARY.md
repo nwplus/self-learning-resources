@@ -25,6 +25,7 @@
 * [Software Development Lifecycle](3-intermediate/software-development-lifecycle.md)
 * Databases
   * [Types of Databases](3-intermediate/db-types.md)
+  * [Basics of Databases](3-intermediate/db-basics.md)
 
 ### General Resources
 * [Online Courses](recs/online-courses.md)

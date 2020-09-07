@@ -50,11 +50,14 @@ GitHub provides everyone with free static web hosting and one single domain name
 [How to deploy your React app into Github Pages](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e)
 
 
-- Messing with custom domains can be confusing, but let's do it anyways:
+- Messing with DNS records can be confusing, but let's do it anyways:
 
 [Linking A Custom Domain To Github Pages](https://richpauloo.github.io/2019-11-17-Linking-a-Custom-Domain-to-Github-Pages/)
 
 ## Heroku (static or dynamic web hosting provider)
+
+Heroku is a platform for mostly targetted by developers to deploy dynamic webapps. It can host webapps running on Node, Ruby, Java, Scala, PHP and more.
+It is generlaly more complicated than hosting static web apps on GitHub but being able to deploy your shiny webapp is worth it.
 
 - Hosting a static website under Heroku with code on GitHub
 

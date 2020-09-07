@@ -2,51 +2,72 @@
 
 We will be building a static portfolio in HTML/CSS! You will come out of this mini-tutorial with something useful you can further enhance to use as your portfolio to recruiters and potential employers.
 
+## 🌌 The finished product
+
+Your finished portfolio will look similar to this, with minor differences in content
+
+#### Intro & About sections
+
+<p align="center">
+  <img width="560" src=".screenshots/intro.jpg">
+</p>
+
+#### Projects section
+
+<p align="center">
+<img width="560" src=".screenshots/projects.jpg">
+</p>
+
+#### Contact section
+
+<p align="center">
+  <img width="560" src=".screenshots/contact.jpg">
+  </p>
+
 ## We have split the project into four parts
 
-<details>
-  <summary>Part 1: Creating index.html</summary>
+1. Creating `index.html`
+2. Designing & building a wireframe
+3. Adding CSS & implementing responsive web design
+4. Adding advanced styling
 
-  ## Part 1: Creating `index.html`
+## Part 1: Creating `index.html`
 
-1. Create a directory called `<GH Username>.github.io`
-2. Create a new file called `index.html` under the new directory
-3. Type the following snippet into `index.html`
+  1. Create a directory called `<GH Username>.github.io`
+  2. Create a new file called `index.html` under the new directory
+  3. Type the following snippet into `index.html`
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <h1>Hello! My name is [name] ✌️</h1>
-  </body>
-</html>
-```
+  ```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <title>My Portfolio</title>
+    </head>
+    <body>
+      <h1>Hello! My name is [name] ✌️</h1>
+    </body>
+  </html>
+  ```
 
-4. Now, we are going to see how our code looks on the browser. In your terminal, navigate to your `<GH Username>.github.io` directory, and type in `open index.html` - this will allow you to see your changes by automatically opening a tab on your browser for your html file.
-1. Alternatively: open Chrome, and press `Ctrl + O` on Windows/Linux or `Cmd + O` on Mac to open the file explorer dialog box. Then, navigate to your `<GH Username>.github.io` directory and open the `index.html` file
-1. You will see something like this on your browser
-   <p align="center">
-   <img width="400" alt="Example of intro text" src=".screenshots/part-1/1-intro.png">
-   </p>
-1. When you make any changes to `index.html`, you can refresh the newly-opened tab to see your changes. Add the following into the `h1` tag:
+  4. Now, we are going to see how our code looks on the browser. In your terminal, navigate to your `<GH Username>.github.io` directory, and type in `open index.html` - this will allow you to see your changes by automatically opening a tab on your browser for your html file.
+  1. Alternatively: open Chrome, and press `Ctrl + O` on Windows/Linux or `Cmd + O` on Mac to open the file explorer dialog box. Then, navigate to your `<GH Username>.github.io` directory and open the `index.html` file
+  1. You will see something like this on your browser
+    <p align="center">
+    <img width="400" alt="Example of intro text" src=".screenshots/part-1/1-intro.png">
+    </p>
+  1. When you make any changes to `index.html`, you can refresh the newly-opened tab to see your changes. Add the following into the `h1` tag:
 
-```html
-<h1>Hello! My name is [name] ✌️, welcome to my portfolio :)</h1>
-```
+  ```html
+  <h1>Hello! My name is [name] ✌️, welcome to my portfolio :)</h1>
+  ```
 
-7. When you refresh the page, you should see
-   <p align="center">
-   <img width="400" alt="Example of modified intro text" src=".screenshots/part-1/2-intro-modified.png">
-   </p>
+  7. When you refresh the page, you should see
+    <p align="center">
+    <img width="400" alt="Example of modified intro text" src=".screenshots/part-1/2-intro-modified.png">
+    </p>
 
-</details>
 
-<details>
-  <summary>Part 2: Designing & building a wireframe</summary>
 
   ## Part 2: Designing & building a wireframe
 
@@ -220,10 +241,8 @@ After the above is added, this is what our Contact section will look like
 <img width="560" alt="Intro" src=".screenshots/part-2/5-contact.png">
 </p>
 
-</details>
 
-<details>
-<summary>Part 3: Adding CSS & implementing responsive web design</summary>
+
 
 ## Part 3: Adding CSS & implementing responsive web design
 
@@ -597,10 +616,9 @@ Example
    <img width="560" alt="Example of intro text" src=".screenshots/part-3/14-contact.png">
    </p>
 
-</details>
 
-<details>
-<summary>Part 4: Applying advanced styling</summary>
+
+
 
   ## Part 4: Applying advanced styling
 
@@ -803,29 +821,7 @@ Example
   - Add effects for project thumbnails when the user hovers onto the pictures
   - Suggestions & ideas to get started: [https://www.w3schools.com/howto/howto_css_image_overlay.asp](https://www.w3schools.com/howto/howto_css_image_overlay.asp), [https://codepen.io/nxworld/pen/ZYNOBZ](https://codepen.io/nxworld/pen/ZYNOBZ)
 
-</details>
 
-## 🌌 The finished product
-
-Your finished portfolio will look similar to this, with minor differences in content
-
-#### Intro & About sections
-
-<p align="center">
-  <img width="560" src=".screenshots/intro.jpg">
-</p>
-
-#### Projects section
-
-<p align="center">
-<img width="560" src=".screenshots/projects.jpg">
-</p>
-
-#### Contact section
-
-<p align="center">
-  <img width="560" src=".screenshots/contact.jpg">
-  </p>
 
 
 #### Want to learn more? We recommend checking out the Mozilla Developer Network (MDN) [web docs](https://developer.mozilla.org/en-US/docs/Learn)

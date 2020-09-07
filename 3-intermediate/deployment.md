@@ -37,6 +37,7 @@ If you answered **no** to the questions, you most likely have a ***static webapp
 Although it takes more resources to host a dynamic webapp than a static webapp, as long as you don't have any server-sided code
 you can still host them with a static web hosting provider.
 
+# Getting started
 
 ## GitHub pages (static web hosting provider)
 
@@ -48,7 +49,7 @@ GitHub provides everyone with free static web hosting and one single domain name
 [Publish and share your own website for free with GitHub](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5)
 
 
-- To host a React app under the GitHub domain:
+- To host a dynamic React app under the GitHub domain:
 
 [How to deploy your React app into Github Pages](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e)
 
@@ -60,13 +61,14 @@ GitHub provides everyone with free static web hosting and one single domain name
 ## Heroku (static or dynamic web hosting provider)
 
 Heroku is a platform for mostly targetted by developers to deploy dynamic webapps. It can host webapps running on Node, Ruby, Java, Scala, PHP and more.
-It is generlaly more complicated than hosting static web apps on GitHub but being able to deploy your shiny webapp is worth it.
+It is more complicated than hosting static web apps on GitHub but being able to deploy your brand new dynamic webapp is totally worth it.
+
+- Extensive tutorial on how to host a Node.js app on Heroku
+
+[Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+
 
 - Hosting a static website under Heroku with code on GitHub
 
 [Hosting a static website on Heroku – The easy way](https://ashish.ch/hosting-a-static-website-on-heroku-the-easy-way/)
 
-
-- Extensive tutorial on how to host a Node.js app on Heroku
-
-[Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)

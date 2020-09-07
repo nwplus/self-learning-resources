@@ -10,6 +10,10 @@
 - Hands-On
   - [Basics of websites](1-getting-started/website-basics.md)
   - [Getting started with your first portfolio](1-getting-started/website-handson/website-handson.md)
+    - [Creating index.html](1-getting-started/website-handson/part-1.md)
+    - [Designing & building a wireframe](1-getting-started/website-handson/part-2.md)
+    - [Adding CSS & responsiveness](1-getting-started/website-handson/part-3.md)
+    - [Applying advanced styling](1-getting-started/website-handson/part-4.md)
 
 ## 2. Beginner
 

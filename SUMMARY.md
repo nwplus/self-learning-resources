@@ -9,7 +9,7 @@
   - [Defining the Tech World](1-getting-started/defining-the-tech-world.md)
 - Hands-On
   - [Basics of websites](1-getting-started/website-basics.md)
-  <!-- - [Getting hands-on](1-getting-started/website-handson.md) -->
+  - [Getting started with your first portfolio](1-getting-started/website-handson/website-handson.md)
 
 ## 2. Beginner
 
@@ -24,6 +24,10 @@
 - APIs
   - [Basics of APIs](3-intermediate/apis-basics.md)
   - [Getting hands-on](3-intermediate/apis-handson.md)
+- [Software Development Lifecycle](3-intermediate/software-development-lifecycle.md)
+- Databases
+  - [Basics of Databases](3-intermediate/db-basics.md)
+  - [Types of Databases](3-intermediate/db-types.md)
 
 ### General Resources
 

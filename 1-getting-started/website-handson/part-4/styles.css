@@ -1,0 +1,131 @@
+/* Body container */
+.container {
+  max-width: 840px;
+  margin: 96px auto;
+}
+
+/* For the fonts, text color, and background color */
+body {
+  background-color: #e2f8ec;
+  font-family: 'Noto Sans', sans-serif;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* content divider*/
+
+hr {
+  border: 0;
+  margin: 48px 0;
+  height: 2px;
+  background-color: #f2fff8;
+}
+
+/* Styles for profile picture  */
+.profile-picture {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+  transition: all ease-in-out 0.2s;
+}
+
+.profile-picture:hover {
+  box-shadow: 0 8px 16px 0 rgba(34, 60, 80, 0.16);
+}
+
+/* About section */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.about-section {
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .about-grid {
+    grid-template-columns: 100%;
+  }
+}
+
+/* projects section */
+
+.heading {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project-image {
+  justify-self: center;
+  padding: 4%;
+}
+@media (max-width: 650px) {
+  .projects-grid {
+    grid-template-columns: 100%;
+  }
+}
+
+/* Styles for the footer  */
+
+.contact {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.links {
+  justify-self: center;
+}
+
+.links-list {
+  list-style: none;
+  padding: 0;
+}
+@media (max-width: 650px) {
+  .links-and-contact {
+    grid-template-columns: 100%;
+  }
+}
+
+form input,
+textarea {
+  padding: 8px;
+  border-radius: 8px;
+  width: 240px;
+}
+
+form {
+  width: 240px;
+  margin: 0 auto;
+}
+
+form input[type='submit'] {
+  width: 240px;
+}
+
+.submit-button-wrapper {
+  margin: 8px 0;
+}
+
+.form-heading {
+  margin-bottom: 8px !important;
+}

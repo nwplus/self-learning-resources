@@ -27,17 +27,16 @@ It is important to classify which web app you have developed so you can pick the
 
 Answering this set of questionnaires might help you figure it out.
 
-1. Does your web app behave differently for every person?
+1. Does your web app show different data for every person?
 
-2. Does your web app build the website with server-sided code?
-
-3. Does your JavaScript control what gets displayed?
+2. Does your JavaScript control what gets rendered?
 
 If you answered **yes** to any of the questions above, you most likely have a ***dynamic webapp***.
 
 If you answered **no** to all of the questions, you most likely have a ***static webapp***.
 
-It takes more resources to host a dynamic web app than a static web app since it becomes more than just hosting a static file on the internet. However, you can still host them with a static web hosting provider as long as you don't have any server-sided code.
+It takes more resources to host a dynamic web app than a static web app since it becomes more than just hosting a static file on the internet.
+However, you can still host them with a static web hosting provider as long as your app is not a running server.
 
 
 ## Web hosting providers

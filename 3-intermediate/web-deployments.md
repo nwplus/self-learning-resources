@@ -4,8 +4,7 @@ Don't be that person that walks around and ask people to check out your shiny we
 
 Unfortunately, your website is not automatically reachable from the internet.
 
-***How do other websites get reached from the internet then?***
-
+## How do other websites get reached from the internet then? (Optional)
 When you type a URL into your browser's address bar, your browser will first check for a DNS record that is associated with the URL.
 It will first search locally in the cache then on the internet from various Domain Name System resolution services.
 It will then use the DNS record to resolve the URL into an IP address that you can make requests to (e.g. www.google.com -> 23.245.12.211) .
@@ -16,7 +15,6 @@ your browser downloads the website content you've requested and finally displays
 Although you could technically host a website from your computer, everyone uses web hosting providers to save both time and effort.
 They're cheap, reliable, and generally very easy to use.
 Learning and having a basic understanding of how to host a web app using solutions like GitHub and Heroku is incredibly useful.
-
 
 ## **Static webapp** vs **Dynamic webapp**
 
@@ -41,7 +39,9 @@ However, you can still host them with a static web hosting provider as long as y
 
 ## Web hosting providers
 
-### GitHub pages (static web hosting provider)
+### GitHub pages
+
+*Note: GitHub pages is only for hosting static webapps*
 
 Getting your "Hello World" onto the internet is not a difficult or expensive task. One of the easiest ways to set this up is with GitHub pages.
 GitHub provides everyone with unlimited free static web hosting with one single domain name under "your-username.github.io".
@@ -60,7 +60,10 @@ GitHub provides everyone with unlimited free static web hosting with one single 
 
 [Linking A Custom Domain To Github Pages](https://richpauloo.github.io/2019-11-17-Linking-a-Custom-Domain-to-Github-Pages/)
 
-### Heroku (static or dynamic web hosting provider)
+### Heroku
+
+*Note: Heroku is used to host both static and dynamic webapps*
+
 
 Heroku is a platform mostly targetted by developers to deploy dynamic web apps. It can host web apps running on Node, Ruby, Java, Scala, PHP, and more.
 It is more complicated than hosting static web apps on GitHub but being able to deploy your brand new dynamic web app is worth it.

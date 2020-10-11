@@ -32,6 +32,8 @@
 - Databases
   - [Basics of Databases](3-intermediate/db-basics.md)
   - [Types of Databases](3-intermediate/db-types.md)
+* Deployment
+  * [Basics of web deployments](3-intermediate/web-deployments.md)
 
 ### General Resources
 

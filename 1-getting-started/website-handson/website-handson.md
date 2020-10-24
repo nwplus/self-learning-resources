@@ -10,19 +10,19 @@ Your finished portfolio will look similar to this, with minor differences in con
 #### Intro & About sections
 
 <p align="center">
-  <img width="560" src=".screenshots/intro.jpg">
+  <img width="560" src="/images/website-handson/intro.jpg">
 </p>
 
 #### Projects section
 
 <p align="center">
-<img width="560" src=".screenshots/projects.jpg">
+<img width="560" src="/images/website-handson/projects.jpg">
 </p>
 
 #### Contact section
 
 <p align="center">
-  <img width="560" src=".screenshots/contact.jpg">
+  <img width="560" src="/images/website-handson/contact.jpg">
   </p>
 
 ## We have split the project into four parts

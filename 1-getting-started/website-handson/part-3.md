@@ -21,7 +21,7 @@ p {
 - each of the lines within the curly brackets `{ }` is a particular style that will be applied to the element selected (`p` in this case)
 
 <p align="center">
-   <img width="400" alt="Example of intro italicized" src=".screenshots/part-3/1-intro-italicized.png">
+   <img width="400" alt="Example of intro italicized" src="/images/website-handson/part-3/1-intro-italicized.png">
    </p>
 
 While adding a CSS selector will select all HTML elements with a selected attribute, this may not be what we want. We will instead give the `p` element a specific identity that we can style. We will do this by adding a `class` attribute.
@@ -44,7 +44,7 @@ Corresponding HTML code if we wanted to use this class in HTML
 ```
 
 <p align="center">
-   <img width="400" alt="Example of intro text" src=".screenshots/part-3/2-intro-green-font.png">
+   <img width="400" alt="Example of intro text" src="/images/website-handson/part-3/2-intro-green-font.png">
    </p>
 
 **ID Selector**
@@ -174,7 +174,7 @@ Example
 ```
 
 <p align="center">
-   <img width="640" alt="Example of intro text" src=".screenshots/part-3/3-intro-devtools.png">
+   <img width="640" alt="Example of intro text" src="/images/website-handson/part-3/3-intro-devtools.png">
    </p>
 
 - `margin: 0 auto;` means no margin for top-bottom, and auto margins for left-right
@@ -196,7 +196,7 @@ Example
 ```
 
 <p align="center">
-   <img width="560" alt="Example of intro text" src=".screenshots/part-3/4-intro-centered.png">
+   <img width="560" alt="Example of intro text" src="/images/website-handson/part-3/4-intro-centered.png">
    </p>
 
 3. Let's arrange the about portion to have two columns with the first half on the left and second half on the right
@@ -235,18 +235,18 @@ Example
 ```
 
 <p align="center">
-   <img width="640" alt="Example of intro text" src=".screenshots/part-3/5-intro-about.png">
+   <img width="640" alt="Example of intro text" src="/images/website-handson/part-3/5-intro-about.png">
    </p>
 <p align="center">
-   <img width="640" alt="Example of intro text" src=".screenshots/part-3/6-intro-about-devtools.png">
+   <img width="640" alt="Example of intro text" src="/images/website-handson/part-3/6-intro-about-devtools.png">
    </p>
 
 4. To simulate a mobile screen, we can do cmd+(or ctrl)shift+m. Notice how the content looks very disproportional, like a zoomed-out version of the desktop site
-      <p align="center">
-         <img width="480" alt="Example of intro text" src=".screenshots/part-3/7-intro-about-projects-devtools.png">
-         </p>
+    <p align="center">
+      <img width="480" alt="Example of intro text" src="/images/website-handson/part-3/7-intro-about-projects-devtools.png">
+      </p>
    <p align="center">
-      <img width="480" alt="Example of intro text" src=".screenshots/part-3/8-intro-responsive.png">
+      <img width="480" alt="Example of intro text" src="/images/website-handson/part-3/8-intro-responsive.png">
       </p>
 
 - we can make our site more responsive by instructing our browser to show the webpage in mobile size
@@ -265,7 +265,7 @@ Example
 - `initial-scale=1.0` sets the initial zoom level when the page is first loaded
 
 <p align="center">
-   <img width="320" alt="Example of intro text" src=".screenshots/part-3/9-intro-responsive-small.png">
+   <img width="320" alt="Example of intro text" src="/images/website-handson/part-3/9-intro-responsive-small.png">
    </p>
 
 5. Another thing we'd like to do is have the about sections one below another on mobile devices. Let's write a media query for that, defining the breakpoint as `480px`
@@ -279,10 +279,10 @@ Example
 ```
 
 <p align="center">
-   <img width="320" alt="Example of intro text" src=".screenshots/part-3/10-intro-responsive-smaller.png">
+   <img width="320" alt="Example of intro text" src="/images/website-handson/part-3/10-intro-responsive-smaller.png">
    </p>
    <p align="center">
-   <img width="400" alt="Example of intro text" src=".screenshots/part-3/11-intro-responsive-med.png">
+   <img width="400" alt="Example of intro text" src="/images/website-handson/part-3/11-intro-responsive-med.png">
    </p>
 
 6. Let's make similar changes to the projects section - 2x2 on desktop, 4x1 on mobile
@@ -319,10 +319,10 @@ Example
 ```
 
 <p align="center">
-   <img width="560" alt="Example of intro text" src=".screenshots/part-3/12-projects.png">
+   <img width="560" alt="Example of intro text" src="/images/website-handson/part-3/12-projects.png">
    </p>
    <p align="center">
-   <img width="400" alt="Example of intro text" src=".screenshots/part-3/13-projects-responsive-small.png">
+   <img width="400" alt="Example of intro text" src="/images/website-handson/part-3/13-projects-responsive-small.png">
    </p>
 
 7. Let's split the contact section as well, by 30-70
@@ -367,7 +367,7 @@ Example
 ```
 
 <p align="center">
-   <img width="560" alt="Example of intro text" src=".screenshots/part-3/14-contact.png">
+   <img width="560" alt="Example of intro text" src="/images/website-handson/part-3/14-contact.png">
    </p>
 
 

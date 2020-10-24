@@ -1,7 +1,7 @@
 # Getting started with your first portfolio - Part 2: Designing & building a wireframe
 
 <p align="center">
-<img width="400" alt="Portfolio mockup" src=".screenshots/part-2/1-mockup.jpg">
+<img width="400" alt="Portfolio mockup" src="/images/website-handson/part-2/1-mockup.jpg">
 </p>
 
 Let's start with a mockup of how we are going to compartmentalize our page into sections. We roughly have these sections:
@@ -33,7 +33,7 @@ We can start with the following code snippet (going in between `<body> </body>`)
 ```
 
 <p align="center">
-<img width="400" alt="Intro" src=".screenshots/part-2/2-intro.png">
+<img width="400" alt="Intro" src="/images/website-handson/part-2/2-intro.png">
 </p>
 
 **About**
@@ -77,7 +77,7 @@ For instance, for me, I would put:
 How this code looks like when you reload your tab on Chrome displaying `index.html`
 
 <p align="center">
-<img width="400" alt="About section" src=".screenshots/part-2/3-about.png">
+<img width="400" alt="About section" src="/images/website-handson/part-2/3-about.png">
 </p>
 
 **Projects**
@@ -97,7 +97,7 @@ The projects section will contain four projects. You'll notice in our wireframe 
 How this looks like when you reload your `index.html` tab
 
 <p align="center">
-<img width="560" alt="Projects section" src=".screenshots/part-2/4-projects.png">
+<img width="560" alt="Projects section" src="/images/website-handson/part-2/4-projects.png">
 </p>
 
 **Contact**
@@ -167,7 +167,7 @@ Add this code snippet underneath the `</ul>` element from above
 After the above is added, this is what our Contact section will look like
 
 <p align="center">
-<img width="560" alt="Intro" src=".screenshots/part-2/5-contact.png">
+<img width="560" alt="Intro" src="/images/website-handson/part-2/5-contact.png">
 </p>
 
 

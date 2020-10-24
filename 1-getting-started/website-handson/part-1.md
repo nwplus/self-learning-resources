@@ -21,9 +21,9 @@
   1. Alternatively: open Chrome, and press `Ctrl + O` on Windows/Linux or `Cmd + O` on Mac to open the file explorer dialog box. Then, navigate to your `<GH Username>.github.io` directory and open the `index.html` file
   1. You will see something like this on your browser
     <p align="center">
-    <img width="400" alt="Example of intro text" src=".screenshots/part-1/1-intro.png">
+    <img width="400" alt="Example of intro text" src="/images/website-handson/part-1/1-intro.png">
     </p>
-  1. When you make any changes to `index.html`, you can refresh the newly-opened tab to see your changes. Add the following into the `h1` tag:
+  2. When you make any changes to `index.html`, you can refresh the newly-opened tab to see your changes. Add the following into the `h1` tag:
 
   ```html
   <h1>Hello! My name is [name] ✌️, welcome to my portfolio :)</h1>
@@ -31,7 +31,7 @@
 
   7. When you refresh the page, you should see
     <p align="center">
-    <img width="400" alt="Example of modified intro text" src=".screenshots/part-1/2-intro-modified.png">
+    <img width="400" alt="Example of modified intro text" src="/images/website-handson/part-1/2-intro-modified.png">
     </p>
 
 

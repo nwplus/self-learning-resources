@@ -37,7 +37,7 @@
       - `hover` sets properties for when we hover over the image, giving users a more visual feedback
 
   <p align="center">
-  <img width="560" alt="Example of intro text" src=".screenshots/part-4/1-intro-with-pfp.png">
+  <img width="560" alt="Example of intro text" src="/images/website-handson/part-4/1-intro-with-pfp.png">
   </p>
 
   5.  Replace the project placeholders with the given images (or your own)
@@ -86,7 +86,7 @@
     Now let's refresh the page! Wow ✨
 
     <p align="center">
-    <img width="640" alt="Example of intro text" src=".screenshots/part-4/3-intro-projects.png">
+    <img width="640" alt="Example of intro text" src="/images/website-handson/part-4/3-intro-projects.png">
     </p>
 
   4. Let's add some footer fixes
@@ -148,7 +148,7 @@
     ```
 
     <p align="center">
-    <img width="640" alt="Example of intro text" src=".screenshots/part-4/4-contact.png">
+    <img width="640" alt="Example of intro text" src="/images/website-handson/part-4/4-contact.png">
     </p>
 
   **Change Background Colour**
@@ -182,7 +182,7 @@
   ```
 
   <p align="center">
-    <img width="560" alt="Example of intro text" src=".screenshots/part-4/5-colored-background.png">
+    <img width="560" alt="Example of intro text" src="/images/website-handson/part-4/5-colored-background.png">
     </p>
 
   **Change text color**

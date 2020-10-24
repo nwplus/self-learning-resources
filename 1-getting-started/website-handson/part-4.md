@@ -53,7 +53,7 @@
       ```
 
       <p align="center">
-      <img width="560" alt="Example of intro text" src=".screenshots/part-4/2-projects-with-thumbnails.png">
+      <img width="560" alt="Example of intro text" src="/images/website-handson/part-4/2-projects-with-thumbnails.png">
       </p>
 
   **Setting custom fonts**

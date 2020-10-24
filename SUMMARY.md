@@ -4,9 +4,7 @@
 
 - [What is coding?](1-getting-started/what-is-coding.md)
 - [A Newcomers Guide to IDEs (and text editors)](1-getting-started/ides-and-text-editors.md)
-- Terminology
-  - [Software Development Lifecycle](1-getting-started/software-development-lifecycle.md)
-  - [Defining the Tech World](1-getting-started/defining-the-tech-world.md)
+- [Defining the Tech World](1-getting-started/defining-the-tech-world.md)
 - Hands-On
   - [Basics of websites](1-getting-started/website-basics.md)
   - [Getting started with your first portfolio](1-getting-started/website-handson/website-handson.md)
@@ -22,6 +20,9 @@
   - [How to Git/GitHub](2-beginner/how-to-git-github.md)
   - [Git Workflow](2-beginner/git-workflow.md)
 - [Command Line Basics](2-beginner/command-line-basics.md)
+  - [CLI Mac/Linux](2-beginner/command-line-mac-linux.md)
+  - [CLI Windows](2-beginner/command-line-windows.md)
+  - [Terminal Terminology](2-beginner/terminal-terminology.md)
 
 ## 3. Intermediate
 
@@ -32,11 +33,12 @@
 - Databases
   - [Basics of Databases](3-intermediate/db-basics.md)
   - [Types of Databases](3-intermediate/db-types.md)
-* Deployment
-  * [Basics of web deployments](3-intermediate/web-deployments.md)
+- Deployment
+  - [Basics of web deployments](3-intermediate/web-deployments.md)
 
 ### General Resources
 
-- [General Resources](2-beginner/general-resources.md)
 - [Everything Git](recs/git-recs.md)
 - [Recommendations](recs/general-recs.md)
+  - [Hackathon Related](recs/hackathon-recs.md)
+  - [Online Courses](recs/online-courses.md)
